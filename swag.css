@@ -1,0 +1,128 @@
+body {
+    background-color:gray;
+    padding-top: 80px;
+    background-attachment: fixed;
+    background-image: url(/Users/JamesMeyers/Desktop/swag/bg.png);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size:2em;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.1em;
+}
+p {
+    color:white;
+    text-shadow: black 0.3em 0.3em 0.1em;
+}
+
+.main {
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 20px;
+    height:auto;
+    width: 100%;
+    transition: background 0.4s ease;
+    text-align: center;
+    transition: all 0.2s ease;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main:hover {
+    background-color: rgba(255,255,255,0.2);
+}
+.navbar {
+    height:80px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    position: fixed;
+    top: 1px;
+    color: blue;
+}
+ul {
+ list-style-type: none;   
+}
+li {
+    list-style-type: none;
+    float:left;
+}
+/*for the header, try to combine it with the nav class*/
+a.header, a.header:visited {
+    text-decoration: none;
+    padding-right: 40px;
+    padding-left: 40px;
+    display: block;
+    text-decoration: none;
+    line-height: 60px;
+    top: 1px;
+    color:white;
+    font-size: 1.5em;
+    transition: background 0.2s ease-in-out;
+    border-radius: 10px;
+    color:white;
+}
+a.nav, a.nav:visited {
+    text-decoration: none;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: block;
+    text-decoration: none;
+    line-height: 60px;
+    top: 1px;
+    font-size: 1em;
+    transition: background 0.2s ease-in-out;
+    border-radius: 10px;
+    color:blue;
+}
+a.nav:hover, a.header:hover {
+    background-color: rgba(255,255,255,0.5);
+    height:60px;
+    border-radius: 10px;
+}
+li.active, a.header:active, a.nav:active {
+    background-color:rgba(0,0,0,1);
+    border-radius: 10px;
+}
+.button, .button:visited {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    width: 100px;
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: blue;
+    border-color: black;
+    border: 1px solid;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 1.5s ease;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button:hover {
+    background: radial-gradient(white,blue);
+    color:blue;
+    transition: all 1.5s ease;
+    border-color:white;
+}
+.big {
+    background-color: rgba(255,255,255,0.7);
+    font-family: monospace serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+    border-radius: 3px;
+}
+.big>h1 {
+    font-size: 2em;
+    color: black;
+    text-shadow: none;
+}
+.big>p {
+    color: black;
+    font-size: 1.25em;
+    text-shadow: none;
+}
