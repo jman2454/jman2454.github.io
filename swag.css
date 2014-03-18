@@ -126,7 +126,7 @@ li.active, a.header:active, a.nav:active {
     color: black;
     font-size: 1.25em;
     text-shadow: none;
-    font-family: "Big";
+    font-family: "Big", fantasy;
 }
 @font-face {
     font-family: 'Big'; /*a name to be used later*/
