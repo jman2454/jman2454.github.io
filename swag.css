@@ -120,11 +120,15 @@ li.active, a.header:active, a.nav:active {
     font-size: 2em;
     color: black;
     text-shadow: none;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Big";
 }
 .big>p {
     color: black;
     font-size: 1.25em;
     text-shadow: none;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Big";
+}
+@font-face {
+    font-family: 'Big'; /*a name to be used later*/
+    src: url('/fonts/helveticaneue.ttf'); /*URL to font*/
 }
