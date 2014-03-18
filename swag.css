@@ -120,9 +120,11 @@ li.active, a.header:active, a.nav:active {
     font-size: 2em;
     color: black;
     text-shadow: none;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .big>p {
     color: black;
     font-size: 1.25em;
     text-shadow: none;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
