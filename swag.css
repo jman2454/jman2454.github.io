@@ -74,7 +74,7 @@ a.nav, a.nav:visited {
     font-size: 1em;
     transition: background 0.2s ease-in-out;
     border-radius: 10px;
-    color:blue;
+    color:white;
 }
 a.nav:hover, a.header:hover {
     background-color: rgba(255,255,255,0.5);
