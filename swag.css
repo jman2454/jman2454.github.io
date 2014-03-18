@@ -134,9 +134,3 @@ li.active, a.header:active, a.nav:active {
     font-family: 'Big'; /*a name to be used later*/
     src: url('/fonts/helveticaneue.ttf'); /*URL to font*/
 }
-.cat:hover {
-    display:none;
-}
-.cat {
-    display: block;   
-}
