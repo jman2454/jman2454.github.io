@@ -151,7 +151,7 @@ li.active, a.header:active, .nav:active {
     border-radius: 10px;
 }
 .blog>h1, .blog>p {
-    margin-left: 5px;
+    padding-left: 5px;
     text-decoration: underline;
     color:black;
     text-shadow: none;
