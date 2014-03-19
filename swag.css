@@ -49,6 +49,9 @@ p {
 ul {
  list-style-type: none;   
 }
+ol {
+    list-style-type: armenian;
+}
 li {
     list-style-type: none;
     float:left;
