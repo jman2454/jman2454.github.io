@@ -157,5 +157,7 @@ li.active, a.header:active, .nav:active {
     text-shadow: none;
     font-family: 'james';
 }
-
+.blog>p {
+    text-decoration: none;
+}
 
