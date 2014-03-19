@@ -168,5 +168,6 @@ li.active, a.header:active, .nav:active {
     font-family: 'james';
     padding-left: 15px;
     font-size: 1.25em;
+    padding-top: 10px;
 }
 
