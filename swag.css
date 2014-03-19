@@ -151,7 +151,7 @@ li.active, a.header:active, .nav:active {
     border-radius: 10px;
 }
 .blog>h1, .blog>p {
-    padding-left: 5px;
+    padding-left: 15px;
     text-decoration: underline;
     color:black;
     text-shadow: none;
@@ -159,5 +159,7 @@ li.active, a.header:active, .nav:active {
 }
 .blog>p {
     text-decoration: none;
+    background-color:inherit;
+    border-radius: 15px;
 }
 
