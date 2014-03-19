@@ -154,14 +154,19 @@ li.active, a.header:active, .nav:active {
     border-top-color: black;
     border-top: 1px solid;
 }
-.blog>h1, .blog>p {
+.blog>h1 {
     padding-left: 15px;
-    text-decoration: underline;
+    text-decoration: none;
     color:black;
     text-shadow: none;
     font-family: 'james';
+    font-size: 2em;
 }
 .blog>p {
     text-decoration: none;
+    text-shadow: none;
+    font-family: 'james';
+    padding-left: 15px;
+    font-size: 1.25em;
 }
 
