@@ -49,12 +49,11 @@ p {
 ul {
  list-style-type: none;   
 }
-ol {
-    list-style-type: armenian;
-}
 li {
-    list-style-type: none;
     float:left;
+}
+.navbar>li {
+    list-style-type: none;
 }
 /*for the header, try to combine it with the nav class*/
 a.header, a.header:visited {
