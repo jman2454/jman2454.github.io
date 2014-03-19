@@ -153,6 +153,7 @@ li.active, a.header:active, .nav:active {
 .blogcontainer {
     border-top-color: black;
     border-top: 1px solid;
+    padding-top: 20px;
 }
 .blog>h1 {
     padding-left: 15px;
@@ -161,6 +162,7 @@ li.active, a.header:active, .nav:active {
     text-shadow: none;
     font-family: 'james';
     font-size: 2em;
+    padding-top: 30px;
 }
 .blog>p {
     text-decoration: none;
