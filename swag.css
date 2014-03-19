@@ -50,10 +50,8 @@ ul {
  list-style-type: none;   
 }
 li {
-    float:left;
-}
-.navbar>li {
     list-style-type: none;
+    float:left;
 }
 /*for the header, try to combine it with the nav class*/
 a.header, a.header:visited {
