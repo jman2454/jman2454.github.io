@@ -174,4 +174,7 @@ li.active, a.header:active, .nav:active {
     padding-top: 10px;
     color:black;
 }
-
+a, a:visited {
+    text-shadow: none;
+    color:blue;
+}
