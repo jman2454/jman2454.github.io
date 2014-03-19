@@ -218,12 +218,12 @@ a, a:visited {
     }  
     .navbar>a#pull:after {  
         content:"";  
-        background: url('nav-icon.png') no-repeat;  
+        background-color: currentColor;  
         width: 30px;  
         height: 30px;  
         display: inline-block;  
         position: absolute;  
-        rightright: 15px;  
+        right: 15px;  
         top: 10px;  
     }  
 }  
