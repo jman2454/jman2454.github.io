@@ -170,8 +170,8 @@ li.active, a.header:active, .nav:active {
     text-shadow: none;
     font-family: 'james';
     padding-left: 15px;
-    font-size: 1.5em;
+    font-size: 2em;
     padding-top: 10px;
-    color:white;
+    color:black;
 }
 
