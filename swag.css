@@ -7,6 +7,9 @@ body {
     font-family: 'james';
 }
 
+div {
+   margin: 5px 5px 5px 10px; position:relative; 
+}
 h1 {
     font-size:2em;
     color: white;
