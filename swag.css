@@ -150,9 +150,12 @@ li.active, a.header:active, .nav:active {
     margin-right: auto;
     border-radius: 10px;
 }
-.blog>h1 {
+.blog>h1, .blog>p {
+    margin-left: 5px;
     text-decoration: underline;
     color:black;
     text-shadow: none;
     font-family: 'james';
 }
+
+
