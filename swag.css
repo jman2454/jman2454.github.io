@@ -44,6 +44,7 @@ p {
     position: fixed;
     top: 1px;
     color: blue;
+    z-index: 20px;
 }
 ul {
  list-style-type: none;   
