@@ -4,6 +4,7 @@ body {
     background-attachment: fixed;
     background-image: url(http://jman2454.github.io/bg.png);
     background-repeat: no-repeat;
+    font-family: 'james';
 }
 
 h1 {
@@ -133,4 +134,8 @@ li.active, a.header:active, a.nav:active {
 @font-face {
     font-family: 'Big'; /*a name to be used later*/
     src: url('http://jman2454.github.io/fonts/helveticaneue.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'james';
+    src: url('fonts/jfont.ttf')
 }
