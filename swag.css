@@ -210,7 +210,7 @@ a, a:visited {
     height: 30px;
 }
 .alert-success {
-    background-color:green;   
+    background-color: rgba(0,150,0,0.3);   
 }
 .alert>p {
     padding-left: 20px;   
