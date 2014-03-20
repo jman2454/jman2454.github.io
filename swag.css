@@ -209,6 +209,8 @@ a, a:visited {
     border-radius: 10px;
     height: 50px;
     line-height: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .alert-success {
     background-color: #dff0d8;
