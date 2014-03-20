@@ -90,7 +90,7 @@ li.active, a.header:active, .nav:active {
     background-color:rgba(0,0,0,1);
     border-radius: 10px;
 }
-button, button:visited {
+.btn, .btn:visited {
   background: #94d4ff;
   background-image: -webkit-linear-gradient(top, #94d4ff, #0a7bc2);
   background-image: -moz-linear-gradient(top, #94d4ff, #0a7bc2);
@@ -108,7 +108,7 @@ button, button:visited {
   text-decoration: none;
 }
 
-button:hover {
+.btn:hover {
   background: #ffffff;
   text-decoration: none;
 }
