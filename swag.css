@@ -211,7 +211,8 @@ a, a:visited {
     line-height: 30px;
 }
 .alert-success {
-    background-color: #BF99FF99;
+    background-color: #99FF99;
+    opacity: 0.55;
     border: 2px solid;
     border-color: rgba(70,150,0,1);
     color: #006600;
