@@ -202,3 +202,16 @@ a, a:visited {
         text-indent: 25px;  
     }  
 }  
+.alert {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    height: 30px;
+}
+.alert-success {
+    background-color:green;   
+}
+.alert>p {
+    padding-left: 20px;   
+}
