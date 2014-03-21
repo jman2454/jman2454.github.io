@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+<script>
+    operators = {
+    '+': function(a, b) { return a + b },
+    '-': function(a, b) { return a - b },
+    '/': function(a, b) { return a / b },
+    '*': function(a, b) { return a * b },
+     // ...
+};
+
+p = '+';
+m = '-';
+d = '/';
+mu = '*';
+
+    function addnum(n) {
+        document.getElementById("input").value += n;
+    }
+
+    function backSpace() {
+        document.getElementById("input").value = '';
+    x = 0;
+    y = 0;
+    }
+
+    function add() {
+        x = parseInt(document.getElementById("input").value);
+        document.getElementById("input").value = '';
+        op = p;
+    }
+    
+    function sub() {
+        x = parseInt(document.getElementById("input").value);
+        document.getElementById("input").value = '';
+        op = m;
+    }
+    function div() {
+        x = parseInt(document.getElementById("input").value);
+        document.getElementById("input").value = '';
+        op = d;
+    }
+function mult() {
+        x = parseInt(document.getElementById("input").value);
+        document.getElementById("input").value = '';
+        op = mu;
+    }
+    function eq() {
+        y = parseInt(document.getElementById("input").value);
+        result = operators[op](x, y)
+        document.getElementById("input").value = result
+    }
+</script>
+<a class="ab" href="index.html">Back to list</a>
+<div style="border: 1px solid #000000; width:500px; margin-left:auto; margin-right:auto;" align="center" class="calc">
+    <div class="child" align="center">
+        <input id="input"></input>
+                    <button onclick="backSpace()">C</button>
+                
+        </br>
+</br>
+    </div>
+    <div class="child" align="center">
+        <table style="border: 1px solid #000000">
+            <tr>
+                <td>
+                    <button onclick="addnum(1)">1</button>
+                </td>
+                <td>
+                    <button onclick="addnum(2)">2</button>
+                </td>
+                <td>
+                    <button onclick="addnum(3)">3</button>
+                </td>
+                <td>
+                    <button onclick="mult()">x</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="addnum(4)">4</button>
+                </td>
+                <td>
+                    <button onclick="addnum(5)">5</button>
+                </td>
+                <td>
+                    <button onclick="addnum(6)">6</button>
+                </td>
+                <td>
+                    <button onclick="add()">+</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="addnum(7)">7</button>
+                </td>
+                <td>
+                    <button onclick="addnum(8)">8</button>
+                </td>
+                <td>
+                    <button onclick="addnum(9)">9</button>
+                </td>
+                <td>
+                    <button onclick="sub()">-</button>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <button class="button" onclick="addnum(0)">0</button>
+                </td>
+                <td>
+                    <button onclick="div()">/</button>
+                </td>
+                <td>
+                    <button onclick="eq()">=</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+<footer> Just a little keyboard that I made</footer>
+</body>
+</html>

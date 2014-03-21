@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>The Shining</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body onload="load()" onkeypress="update(); myFunction(); keyPress();">
+        
+<a class="ab" href="index.html">Back to list</a>
+<audio id="alm">
+    <source src="key-01.mp3">
+</audio>
+        <div style="margin-left:auto; margin-right:auto; position: absolute">
+            <p id="demo"></p>
+        </div>
+
+        <script>
+            var ja = 0;
+            var jack = prompt("Enter your name.", "");
+            alert("type to begin");
+
+            function onLoad(el) {
+                document.getElementById('demo').readOnly = true;
+            }
+
+            function myFunction() {
+                var str = '. all work and no play makes ' + jack + ' a dull boy';
+                var res = str.charAt(ja);
+                document.getElementById("demo").innerHTML += res;
+                if (ja > str.length) {
+                    ja = 0;
+                }
+            }
+
+            function update() {
+                ja++;
+
+            }
+            function keyPress() {
+                document.getElementById('alm').play();
+            }
+        </script>
+
+    </body>
+
+</html>

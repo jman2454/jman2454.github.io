@@ -1,0 +1,26 @@
+<head>
+<link rel="stylesheet" href="style.css">
+<script language="javascript" type="text/javascript">
+function randomString() {
+	var chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz";
+	var string_length = 8;
+	var randomstring = '';
+	for (var i=0; i<string_length; i++) {
+		var rnum = Math.floor(Math.random() * chars.length);
+		randomstring += chars.substring(rnum,rnum+1);
+	}
+	document.randform.randomfield.value = randomstring;
+}
+</script>
+
+</head>
+
+<body>
+<a class="ab" href="index.html">Back to list</a>
+<div style="margin-left:auto; margin-right:auto">
+<form name="randform">
+<input type="button" value="Create Password" onClick="randomString();">
+<input type="text" name="randomfield" value="">
+</form>
+</div>
+</body>

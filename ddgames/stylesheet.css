@@ -1,0 +1,23 @@
+h1 {
+   color:blue;
+   font-family:Cursive;
+   font-style:oblique;
+   text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,
+        0 0 0.2em #87F
+}
+
+p {
+   color:cyan;
+   text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,
+        0 0 0.2em #87F
+}
+
+a {
+   color:cyan;
+   font-size:25px;
+}
+li {
+    color:black;
+}
+
+
