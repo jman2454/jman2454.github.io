@@ -109,7 +109,7 @@ li.active, a.header:active, .nav:active {
         }
         .btn:active {
             box-shadow: 0px 2px 0px rgba(59, 117, 148, 1);
-            margin-top: 7px;
+            top: 7px;
             background-color:rgba(129,187,200,1);
         }
         .btn-orange {
