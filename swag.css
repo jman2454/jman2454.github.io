@@ -321,3 +321,35 @@ a, a:visited {
   -webkit-animation-name: bounceInDown;
   animation-name: bounceInDown;
 }
+@keyframes swag {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    100% {
+        -webkit-transform: scale(1) rotate(0);
+        transform: scale(1) rotate(0);
+    }
+}
+@-webkit-keyframes swag {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    100% {
+        -webkit-transform: scale(1) rotate(0);
+        transform: scale(1) rotate(0);
+    }
+}
+.swag {
+    -webkit-animation-name: swag;
+    animation-name: swag;
+}
