@@ -9,6 +9,7 @@ body {
  -webkit-animation-duration: 1.5s;
  -webkit-animation-iteration-count: 1;
  -webkit-animation-timing-function: linear;
+    padding:100px;
 }
 
 div {
