@@ -35,6 +35,7 @@ p {
     transition: all 0.2s ease;
     margin-left: auto;
     margin-right: auto;
+    padding: 7px;
 }
 .main>p, .main>h1 {
     font-family: "Big";   
