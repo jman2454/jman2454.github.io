@@ -4,16 +4,16 @@ body {
     background-attachment: fixed;
     background-image: url(http://jman2454.github.io/bg.png);
     background-repeat: no-repeat;
-    -webkit-animation-name: bounceInDown;
- -webkit-animation-fill-mode: both;
- -webkit-animation-duration: 1.5s;
- -webkit-animation-iteration-count: 1;
- -webkit-animation-timing-function: linear;
     padding:100px;
 }
 
 div {
    margin: 5px 5px 5px 10px; position:relative; 
+        -webkit-animation-name: bounceInDown;
+ -webkit-animation-fill-mode: both;
+ -webkit-animation-duration: 1.5s;
+ -webkit-animation-iteration-count: 1;
+ -webkit-animation-timing-function: linear;
 }
 h1 {
     font-size:2em;
