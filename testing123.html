@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS Bin</title>
+</head>
+<body>
+  <button onclick="hi()"></button>
+  <iframe src="about:blank"></iframe>
+  <script>
+  function hi() {
+  var doctype = document.implementation.createDocumentType( 'html', '', '');
+  var dom = document.implementation.createDocument('', 'html', doctype);
+dom.innerHTML = 'swag';
+  
+  document.getElementsByTagName('iframe')[0].src = dom;
+}
+  
+  </script>
+</body>
+</html>
